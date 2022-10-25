@@ -871,7 +871,7 @@ metrics:
         - 1.4: 2.3
         - 2.0: 1.4
 
-# Health check endpoint (docs: https://roadrunner.dev/docs/beep-beep-health). If response code is 200 - it means at
+# Health check endpoint (docs: https://roadrunner.dev/docs/app-server-health/2.x/en). If response code is 200 - it means at
 # least one worker ready to serve requests. 500 - there are no workers ready to service requests.
 # Drop this section for this feature disabling.
 status:
